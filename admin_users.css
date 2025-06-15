@@ -1,0 +1,18 @@
+body {
+    background: #eef1f5;
+    font-family: Arial, sans-serif;
+  }
+  .table-container {
+    margin: 40px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  

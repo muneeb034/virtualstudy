@@ -1,0 +1,25 @@
+body {
+    background: #f9fbfd;
+    font-family: Verdana, sans-serif;
+  }
+  .group-list {
+    margin: 30px auto;
+    width: 90%;
+  }
+  .group-card {
+    background: white;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  }
+   table { width: 80%; border-collapse: collapse; margin: 20px auto; }
+    th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
+    th { background-color: #f4f4f4; }
+    .btn-delete {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }

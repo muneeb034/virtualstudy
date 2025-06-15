@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+
+  .navbar {
+    background-color: #1a237e;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    float: right;
+  }
+  
+  .navbar nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar nav ul li a:hover,
+  .navbar nav ul li a.active {
+    color: #ffca28;
+  }
+  
+
+  .hero {
+    background: linear-gradient(to right, #3f51b5, #5c6bc0);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+
+  .form-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .form-card label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+    color: #1a237e;
+  }
+  
+  .form-card input[type="text"],
+  .form-card input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 15px;
+  }
+  
+  .form-card input:focus {
+    border-color: #3f51b5;
+  }
+
+  .btn {
+    background-color: #ffca28;
+    color: #1a237e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffd740;
+  }
+  
+ 
+  .task-list ul {
+    padding: 0;
+  }
+  
+  .task-list li {
+    background-color: #f0f4ff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
+  .task-list small {
+    color: #555;
+  }
+  
+
+  .footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  
+ 

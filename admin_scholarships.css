@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f2f5;
+  }
+  .scholarship-panel {
+    padding: 25px;
+  }
+  .scholarship-item {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
